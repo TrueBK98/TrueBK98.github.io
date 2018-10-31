@@ -244,19 +244,19 @@ function judge() {
         var scoreText = document.createTextNode("Quite Slow")
         score.style.color = "white";
     }
-    else if (numCircle <= 40) {
+    else if (numCircle <= 35) {
         var scoreText = document.createTextNode("Average")
         score.style.color = "blue";
     }
-    else if (numCircle <= 50) {
+    else if (numCircle <= 40) {
         var scoreText = document.createTextNode("Quite Fast")
         score.style.color = "orange";
     }
-    else if (numCircle <= 70) {
+    else if (numCircle <= 50) {
         var scoreText = document.createTextNode("Fast")
         score.style.color = "red";
     }
-    else if (numCircle > 70) {
+    else if (numCircle > 50) {
         var scoreText = document.createTextNode("Inhuman")
         score.style.color = "gold";
     }
